@@ -1,0 +1,10 @@
+extends layout.pug
+
+block content
+  h1 Hello Mongo!
+
+  p Explorer la base de restaurants de la ville de New York avec cette application !
+
+  ul
+    each borough in boroughs
+      li= borough

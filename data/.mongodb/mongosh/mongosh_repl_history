@@ -1,0 +1,13 @@
+db.restaurants.find({})
+use ny
+db.restaurants.find({})
+use ny
+db.restaurants.find({})
+use ny
+clear
+db.restaurants.find({})
+show collections
+collections
+use ny
+show dbs
+exit

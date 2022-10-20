@@ -1,0 +1,18 @@
+extends layout.pug
+
+block content
+  h1 Hello Mongo!
+
+  p search !
+
+  form(action="/search", method="get") 
+    input#(type="search", name="borough")
+    button(type="submit") 
+    
+  table 
+    tbody 
+        each result  in searchResults
+        tr 
+            td= result.borough
+            td= result.name 
+            td= result.address
